@@ -38,8 +38,8 @@ const ImageTextSection: React.FC<ImageTextSectionProps> = ({
 				</div>
 
 				<div className="space-y-4">
-					<h2 className="text-2xl font-semibold">{title}</h2>
-					<p className="text-lg text-gray-700 dark:text-gray-300">{text}</p>
+					<h2>{title}</h2>
+					<p>{text}</p>
 				</div>
 			</div>
 		</section>

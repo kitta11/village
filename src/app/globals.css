@@ -3,11 +3,26 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* @layer theme {
-	:root {
-		--spacing: 8px;
+@layer base {
+	h1 {
+		font-size: var(--text-3xl);
+		font-weight: 700;
+		margin: --spacing(6) 0;
 	}
-} */
+	h2 {
+		font-size: var(--text-2xl);
+		font-weight: 600;
+		margin: --spacing(4) 0;
+	}
+	h3 {
+		font-size: var(--text-xl);
+		font-weight: 500;
+		margin: --spacing(2) 0;
+	}
+	p {
+		padding: --spacing(2) 0;
+	}
+}
 
 @theme inline {
 	--color-background: var(--background);

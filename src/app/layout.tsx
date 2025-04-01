@@ -26,7 +26,7 @@ export default function RootLayout({
 			<body className={`${nunitoSans.className}  antialiased`}>
 				<Header />
 				<Breadcrumb />
-				<div className="overflow-auto p-5">{children}</div>
+				<div className="overflow-auto px-8">{children}</div>
 				<Footer />
 			</body>
 		</html>
