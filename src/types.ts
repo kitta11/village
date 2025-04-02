@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image'
+
 export interface MenuItem {
 	id: string
 	name: string
@@ -14,4 +16,13 @@ export interface VideoCardItem {
 	text: string
 	videoId: string // YouTube video ID
 	category: 'egov' | 'tourism'
+}
+
+export interface PersonCardProps {
+	name: string
+	position: string
+	email: string
+	phone?: string
+	description?: string
+	imageSrc?: string | StaticImageData
 }

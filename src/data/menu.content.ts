@@ -42,11 +42,15 @@ export const menuItems: MenuItem[] = [
 		name: 'Önkormányzat',
 		href: '',
 		children: [
-			{ id: 'hivatal', name: 'Hivatal', href: '/onkormanyzat/hivatal' },
 			{
-				id: 'testulet',
-				name: 'Képviselő-testület',
-				href: '/onkormanyzat/testulet',
+				id: 'polgarmesterihivatal',
+				name: 'Polgármesteri Hivatal',
+				href: '/onkormanyzat/polgarmesterihivatal',
+			},
+			{
+				id: 'kozoshivatal',
+				name: 'Kővágóőrsi Közös Hivatal',
+				href: '/onkormanyzat/kozoshivatal',
 			},
 			{
 				id: 'eugyintezes',

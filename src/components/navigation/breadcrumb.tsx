@@ -53,7 +53,7 @@ export default function Breadcrumb() {
 		pathName === '/' ? [] : pathName.split('/').filter(Boolean)
 
 	return (
-		<nav className="w-full rounded-md p-8">
+		<nav className="w-full rounded-md px-8 py-4">
 			<ol className="list-reset flex">
 				<BreadCrumbItem
 					key="home"
